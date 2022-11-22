@@ -1,0 +1,47 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #d3d3d3;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  padding: 0;
+  margin: 0;
+}
+
+.text__decoration--disabled {
+  text-decoration: none;
+  color: black;
+}
+
+.date {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.white__space {
+  white-space: nowrap;
+}
+
+.cursor__pointer {
+  cursor: pointer;
+}
+
+.progress__bar {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -60%);
+}
